@@ -1,5 +1,7 @@
 <?php
 
+namespace Lib;
+
 class Auth
 {
     protected $user;

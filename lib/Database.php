@@ -1,8 +1,13 @@
 <?php
 
+namespace Lib;
+
+use PDO;
+use PDOException;
+
 class Database
 {
-    protected $pdo;
+    public $pdo;
 
     /**
      * Database constructor.

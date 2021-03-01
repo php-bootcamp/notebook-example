@@ -2,9 +2,6 @@
 
 require "exceptions/DatabaseConnectionException.php";
 require "lib/functions.php";
-require "lib/validation.php";
-require "lib/database.php";
-require "lib/auth.php";
 
 $config = include "config.php";
 

@@ -2,8 +2,10 @@
 
 require "exceptions/DatabaseConnectionException.php";
 require "lib/functions.php";
-require "lib/database.php";
-require "lib/auth.php";
+require "autoloader.php";
+
+use Lib\Database;
+use Lib\Auth;
 
 $config = include "config.php";
 
